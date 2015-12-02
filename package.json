@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/yenbekbay/app-stats#readme",
   "dependencies": {
-    "app-store-reviews": "0.0.4",
     "cli-spinner": "^0.2.1",
     "cli-table2": "^0.1.9",
     "colors": "^1.1.2",
@@ -38,7 +37,6 @@
     "itunesconnect": "^0.2.0",
     "keychain": "^1.0.0",
     "mixpanel-data-export": "^1.8.2",
-    "node-crashlytics": "0.0.4",
     "request": "^2.67.0",
     "rx": "^4.0.7",
     "yargs": "^3.30.0"
