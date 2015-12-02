@@ -1,0 +1,49 @@
+{
+  "name": "app-stats",
+  "version": "0.1.0",
+  "description": "Get statistics for your iOS app (downloads, average app store rating, mixpanel analytics)",
+  "main": "./lib/app-stats.js",
+  "preferGlobal": "true",
+  "bin": {
+    "app-stats": "./lib/app-stats.js"
+  },
+  "scripts": {
+    "test": "jshint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yenbekbay/app-stats.git"
+  },
+  "keywords": [
+    "apple",
+    "ios",
+    "appstore",
+    "stats",
+    "widget",
+    "analytics"
+  ],
+  "author": "Ayan Yenbekbay <ayan.yenb@gmail.com> (http://yenbekbay.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yenbekbay/app-stats/issues"
+  },
+  "homepage": "https://github.com/yenbekbay/app-stats#readme",
+  "dependencies": {
+    "app-store-reviews": "0.0.4",
+    "cli-spinner": "^0.2.1",
+    "cli-table2": "^0.1.9",
+    "colors": "^1.1.2",
+    "configstore": "^1.3.0",
+    "inquirer": "^0.11.0",
+    "itunesconnect": "^0.2.0",
+    "keychain": "^1.0.0",
+    "mixpanel-data-export": "^1.8.2",
+    "node-crashlytics": "0.0.4",
+    "request": "^2.67.0",
+    "rx": "^4.0.7",
+    "yargs": "^3.30.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1-rc1"
+  }
+}
