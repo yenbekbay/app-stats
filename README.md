@@ -1,5 +1,5 @@
 # app-stats
-**Get statistics for your iOS app (downloads, average app store rating, Mixpanel analytics)**
+**Get statistics for your iOS apps (downloads, average app store rating, Mixpanel analytics)**
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
