@@ -1,7 +1,7 @@
 # app-stats
 **Get statistics for your iOS apps (downloads, average App Store rating, Mixpanel analytics)**
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 
 [![NodeICO][nodeico-image]][nodeico-url]
 
@@ -54,9 +54,6 @@ THE SOFTWARE.
 [downloads-image]: https://img.shields.io/npm/dm/app-stats.svg
 [npm-url]: https://www.npmjs.com/package/app-stats
 [npm-image]: https://img.shields.io/npm/v/app-stats.svg
-
-[travis-url]: https://travis-ci.org/yenbekbay/app-stats
-[travis-image]: https://img.shields.io/travis/yenbekbay/app-stats.svg
 
 [nodeico-url]: https://nodei.co/npm/app-stats
 [nodeico-image]: https://nodei.co/npm/app-stats.png?downloads=true&downloadRank=true
