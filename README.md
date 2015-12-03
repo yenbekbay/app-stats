@@ -5,7 +5,7 @@
 
 [![NodeICO][nodeico-image]][nodeico-url]
 
-<img width="500" alt="app-stats demo" src="demo.gif"/>
+<img width="700" alt="app-stats demo" src="demo.gif"/>
 
 ## Installation
 
