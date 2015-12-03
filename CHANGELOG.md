@@ -2,7 +2,7 @@
 
 - Added: `--since` option to specify the interval for your stats
 - Added: basic tests (run with `npm test`)
-- Added: this changelog
+- Added: changelog
 - Fixed: showing a column for Mixpanel even if you have no Mixpanel accounts configured
 
 # 0.1.3 - 2015-12-01
