@@ -29,6 +29,10 @@ Options:
                3months, 5weeks, 2years ...           [string] [default: "0days"]
 ```
 
+## To Do
+
+- [ ] Add a column for proceeds 
+
 ## The MIT License
 
 Copyright (C) 2015  Ayan Yenbekbay
