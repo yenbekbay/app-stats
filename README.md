@@ -1,5 +1,5 @@
 # app-stats
-**Get statistics for your iOS apps (downloads, average app store rating, Mixpanel analytics)**
+**Get statistics for your iOS apps (downloads, average App Store rating, Mixpanel analytics)**
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
@@ -9,13 +9,25 @@
 
 ## Installation
 
-``` bash
+```bash
   $ [sudo] npm install app-stats -g
 ```
 
 ## Usage
 
-Just run `app-stats` and complete the configuration. After that you can set up Mixpanel accounts for new apps by running `app-stats setup`.
+Run `app-stats` and complete the configuration. After that you can set up Mixpanel accounts for new apps by running `app-stats setup`.
+
+```bash
+Usage: app-stats <command> [options]
+
+Commands:
+  setup  Set up Mixpanel for selected apps
+
+Options:
+  --help       Show help                                               [boolean]
+  --since, -s  Specify since date. You can use format YYYY-MM-DD or simply 1day,
+               3months, 5weeks, 2years ...           [string] [default: "0days"]
+```
 
 ## The MIT License
 

@@ -1,18 +1,19 @@
 {
   "name": "app-stats",
-  "version": "0.1.3",
-  "description": "Get statistics for your iOS apps (downloads, average app store rating, mixpanel analytics)",
+  "version": "0.2.0",
+  "description": "Get statistics for your iOS apps (downloads, average App Store rating, Mixpanel analytics)",
   "main": "./lib/app-stats.js",
   "preferGlobal": "true",
   "bin": {
     "app-stats": "./lib/app-stats.js"
   },
   "scripts": {
-    "test": "jshint lib"
+    "lint": "jshint",
+    "test": "mocha test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/yenbekbay/app-stats.git"
+    "url": "https://github.com/yenbekbay/app-stats.git"
   },
   "keywords": [
     "apple",
@@ -37,11 +38,14 @@
     "itunesconnect": "^0.2.0",
     "keychain": "^1.0.0",
     "mixpanel-data-export": "^1.8.2",
+    "moment": "^2.10.6",
     "request": "^2.67.0",
     "rx": "^4.0.7",
     "yargs": "^3.30.0"
   },
   "devDependencies": {
-    "jshint": "^2.9.1-rc1"
+    "chai": "^3.4.1",
+    "jshint": "^2.9.1-rc1",
+    "mocha": "^2.3.4"
   }
 }
