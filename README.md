@@ -31,7 +31,7 @@ Options:
 
 ## To Do
 
-- [ ] Add a column for proceeds 
+- [ ] Add a column for proceeds
 - [ ] Percent change for number of downloads
 
 ## The MIT License
