@@ -1,6 +1,6 @@
 {
   "name": "app-stats",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Get statistics for your iOS apps (downloads, average App Store rating, Mixpanel analytics)",
   "main": "./lib/app-stats.js",
   "preferGlobal": "true",
