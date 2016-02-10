@@ -33,6 +33,7 @@ Options:
 
 - [ ] Add a column for proceeds
 - [ ] Percent change for number of downloads
+- [ ] Write better tests
 
 ## The MIT License
 
